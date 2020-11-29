@@ -16,7 +16,7 @@ https://templatemo.com/tm-458-lavish
 }
 body
 {
-    background: #1a1a1a;
+  background: #111;
 	color: #999;
 	font-family: 'Raleway', sans-serif;
 	font-size: 16px;
@@ -113,9 +113,6 @@ h1,h2,h3,h4,h5
   inset -50px 0 300px #0ff;
   
     
-}
-#new-style{
-  
 }
 
 
@@ -441,7 +438,7 @@ a {
         padding-bottom: 140px;
         text-align: center;
         clip-path: polygon(0 1%, 100% 1%, 99% 90%, 0% 100%);
-
+       
         background-attachment: fixed;
        
 	}
@@ -488,7 +485,8 @@ a {
     padding-top: 120px;
     padding-bottom: 140px;
     text-align: center;
-    clip-path: polygon(0 11%, 100% 0, 100% 90%, 0% 100%);
+    clip-path: polygon(0 8%, 100% 1%, 100% 92%, 0% 100%);
+
 
   
     background-attachment: fixed;
@@ -533,7 +531,8 @@ a {
 
 /* start about */
 #about
-{
+{   
+    background: #111;
     clip-path: polygon(0 1%, 100% 1%, 99% 90%, 0% 100%);
 }
 #about h4
@@ -573,7 +572,7 @@ a {
 /* start portfolio */
 #portfolio
     {
-       background: url("../images/try11.jpg");
+       background: url("../images/bg3.jpg");
        background-size: cover;
        background-repeat: no-repeat;
        background-attachment: fixed;
@@ -613,7 +612,12 @@ a {
         opacity: 0.8;
         transform: scale(0.9);
     }
+#color-upg{
 
+  background-color:#111;
+  
+
+}
   
 /* end portfolio */
 
@@ -1059,11 +1063,95 @@ hr {
  
 
 }
-#ne-img
+#ne-img-1
 {
   height: 50rem;
   width:100%;
-  background-image: url("/layout/images/project1.jpeg");
+  background-image: url("../images/project1.jpeg");
+ 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0 0, 100% 0%, 100% 86%, 0 100%);
+ 
+}
+#ne-img-2
+{
+  height: 50rem;
+  width:100%;
+  background-image: url("../images/project3.jpeg");
+ 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0 0, 100% 0%, 100% 86%, 0 100%);
+ 
+}
+#ne-img-3
+{
+  height: 50rem;
+  width:100%;
+  background-image: url("../images/project4.jpeg");
+ 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0 0, 100% 0%, 100% 86%, 0 100%);
+ 
+}
+#ne-img-4
+{
+  height: 50rem;
+  width:100%;
+  background-image: url("../images/project6.jpeg");
+ 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0 0, 100% 0%, 100% 86%, 0 100%);
+ 
+}
+#ne-img-5
+{
+  height: 50rem;
+  width:100%;
+  background-image: url("../images/project8.jpeg");
+ 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0 0, 100% 0%, 100% 86%, 0 100%);
+ 
+}
+#ne-img-6
+{
+  height: 50rem;
+  width:100%;
+  background-image: url("../images/project2.jpeg");
+ 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0 0, 100% 0%, 100% 86%, 0 100%);
+ 
+}
+#ne-img-7
+{
+  height: 50rem;
+  width:100%;
+  background-image: url("../images/project7.jpeg");
+ 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0 0, 100% 0%, 100% 86%, 0 100%);
+ 
+}
+#ne-img-8
+{
+  height: 50rem;
+  width:100%;
+  background-image: url("../images/project5.jpeg");
  
   background-repeat: no-repeat;
   background-size: cover;
@@ -1075,15 +1163,20 @@ hr {
   position: absolute;
   bottom: 41rem;
   color:white;
-  background-color: rgba(0, 0, 0,0.8);
+  background-color:#091927;
+  opacity: 0.8;
   text-align: center;
   font-family: monospace;
-
+  height: 8rem;
+  z-index: 2;
+  
+ 
  
 }
 #text-st:hover
 {
   box-shadow: 7px 7px 5px 0 magenta;
+  
 }
 #cet
 {
@@ -1213,14 +1306,16 @@ _:-ms-input-placeholder .c-crd__img img, :root .c-crd__img img {
 #btn4{
   position: absolute;
   top:2rem;
-  left:3rem;
+  left:1rem;
   background-color: #fff;
 }
 #btn12{
   position: absolute;
   top:2rem;
-  left:19rem;
+  left:17rem;
   background-color: #fff;
+  
+
 }
 .btn-5 {
   width: 130px;
@@ -1397,7 +1492,9 @@ background: linear-gradient(0deg, rgba(255,27,0,1) 0%, rgba(251,75,2,1) 100%);
         margin-left: -4px; }
   .blog-card .description {
     padding: 1rem;
-    background:#fff;
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+    
     box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25); 
     position: relative;
     z-index: 1; }
@@ -1418,7 +1515,7 @@ background: linear-gradient(0deg, rgba(255,27,0,1) 0%, rgba(251,75,2,1) 100%);
     .blog-card .description .read-more {
       text-align: right; }
       .blog-card .description .read-more a {
-        color: #5ad67d;
+        color:rgb(28, 235, 123);
         display: inline-block;
         position: relative; }
         .blog-card .description .read-more a:after {
@@ -1440,7 +1537,7 @@ background: linear-gradient(0deg, rgba(255,27,0,1) 0%, rgba(251,75,2,1) 100%);
         content: "";
         position: absolute;
         height: 5px;
-        background: #5ad67d;
+        background: rgb(28, 235, 123);
         width: 35px;
         top: -0.75rem;
         border-radius: 3px; }
@@ -1458,7 +1555,7 @@ background: linear-gradient(0deg, rgba(255,27,0,1) 0%, rgba(251,75,2,1) 100%);
         .blog-card .description:before {
           transform: skewX(-3deg);
           content: "";
-          background:#fff;/*--------------------------------------------------------------------------------------------------------*/
+  
           width: 30px;
           position: absolute;
           left: -10px;
@@ -1475,7 +1572,43 @@ background: linear-gradient(0deg, rgba(255,27,0,1) 0%, rgba(251,75,2,1) 100%);
           padding-left: 25px; } }
 
 
-          
-         
+      
+
+#back-to-top {
+  display: inline-block;
+  background-color: #FF9800;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+  opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#back-to-top::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#back-to-top:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#back-to-top:active {
+  background-color: #555;
+}
+#back-to-top.show {
+  opacity: 1;
+  visibility: visible;
+}
           
         
