@@ -1150,6 +1150,53 @@ hr {
   clip-path: polygon(0 0, 100% 0%, 100% 86%, 0 100%);
  
 }
+#ne-img-9
+{
+  height: 50rem;
+  width:100%;
+  background-image: url("../images/project9.jpeg");
+ 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0 0, 100% 0%, 100% 86%, 0 100%);
+ 
+}
+#ne-img-10
+{
+  height: 50rem;
+  width:100%;
+  background-image: url("../images/project10.jpeg");
+ 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0 0, 100% 0%, 100% 86%, 0 100%);
+ 
+}
+#ne-img-11
+{
+  height: 50rem;
+  width:100%;
+  background-image: url("../images/project11.jpeg");
+ 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0 0, 100% 0%, 100% 86%, 0 100%);
+ 
+}#ne-img-12
+{
+  height: 50rem;
+  width:100%;
+  background-image: url("../images/project12.jpeg");
+ 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0 0, 100% 0%, 100% 86%, 0 100%);
+ 
+}
 #text-st{
   position: absolute;
   bottom: 41rem;
